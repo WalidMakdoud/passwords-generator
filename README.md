@@ -6,7 +6,7 @@
 
 Hello this projcet i made it for make stronge password!!!!!
 
-![insane]()
+![insane](https://github.com/kaliwalid/passwords-generator/blob/main/passwords-generator.png)
 
 
 
