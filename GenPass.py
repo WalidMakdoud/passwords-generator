@@ -7,7 +7,7 @@ walid = r"""
 ░╚██╗████╗██╔╝███████║██║░░░░░██║██║░░██║
 ░░████╔═████║░██╔══██║██║░░░░░██║██║░░██║
 ░░╚██╔╝░╚██╔╝░██║░░██║███████╗██║██████╔╝
-░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝╚══════╝╚═╝╚═════╝░"""
+░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝╚══════╝╚═╝╚═════╝░   https://instagram.com/is.not_walid"""
 print(walid)
 while True:
     decision = input("Do you want to generate a password put (Y or n or exit): ")
@@ -21,7 +21,7 @@ while True:
         time.sleep(3)
         print(p)
     elif decision == "n":
-        print("Fuck you")
+        print("HHHHH try again")
     elif decision == "exit" :
         break
     else :
