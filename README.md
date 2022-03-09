@@ -1,24 +1,27 @@
 # passwords-generator
-## Author: https://github.com/kaliwalid
+## Author: https://github.com/black-hat-rgb
 ## IG: instagram.com/is.not_walid
 
 
 
 Hello this projcet i made it for make stronge password!!!!!
 
-![insane](https://github.com/kaliwalid/passwords-generator/blob/main/passwords-generator.png)
+![insane](https://github.com/black-hat-rgb/passwords-generator/blob/main/passwords-generator.png)
 
 
 
 
-### Usage:
+### Install:
 ```
-git clone https://github.com/kaliwalid/passwords-generator
+git clone https://github.com/black-hat-rgb/passwords-generator
 cd passwords-generator
 chmod +x GenPass.py
 python3 GenPass.py
 ```
+### Usagge:
 
+
+python3 GenPass.py
 
 
 
