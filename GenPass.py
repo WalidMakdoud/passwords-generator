@@ -1,4 +1,4 @@
-#THis script its my 2nd project for generatore paswword :W.M:
+#THis script its my 2nd project for generatore paswword : By : https://github.com/black-hat-rgb
 import time
 import random
 walid = r"""
