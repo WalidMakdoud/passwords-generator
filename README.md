@@ -6,7 +6,6 @@
 
 Hello this projcet i made it for make stronge password!!!!!
 
-![insane](https://github.com/black-hat-rgb/passwords-generator/blob/main/passwords-generator.png)
 
 
 
