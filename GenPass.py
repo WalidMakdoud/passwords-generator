@@ -1,4 +1,4 @@
-#THis script its my 2nd project for generatore paswword : By : https://github.com/black-hat-rgb
+#THis script its my 2nd project for generatore paswword : By : https://github.com/WalidMakdoud
 import time
 import random
 H04x = r"""
@@ -7,7 +7,7 @@ H04x = r"""
 ███████║██║░░██║██╔╝░██║░╚███╔╝░
 ██╔══██║██║░░██║███████║░██╔██╗░
 ██║░░██║╚█████╔╝╚════██║██╔╝╚██╗
-╚═╝░░╚═╝░╚════╝░░░░░░╚═╝╚═╝░░╚═╝  https://instagram.com/h04x_h04x"""
+╚═╝░░╚═╝░╚════╝░░░░░░╚═╝╚═╝░░╚═╝  https://instagram.com/xx_xwalidxx"""
 print(H04X)
 while True:
     decision = input("Do you want to generate a password put (Y or n or exit): ")
@@ -21,7 +21,7 @@ while True:
         time.sleep(3)
         print(p)
     elif decision == "n":
-        print("HHHHH try again")
+        print("Thanks for using")
     elif decision == "exit" :
         break
     else :
