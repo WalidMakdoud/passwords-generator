@@ -1,6 +1,5 @@
 # passwords-generator
 ## Author: https://github.com/WalidMakdoud
-## IG: instagram.com/xx_xwalidxx
 
 
 
