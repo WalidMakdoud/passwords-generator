@@ -1,28 +1,32 @@
-#THis script its my 2nd project for generatore paswword : By : https://github.com/WalidMakdoud
 import time
 import random
-H04x = r"""
-██╗░░██╗░█████╗░░░██╗██╗██╗░░██╗
-██║░░██║██╔══██╗░██╔╝██║╚██╗██╔╝
-███████║██║░░██║██╔╝░██║░╚███╔╝░
-██╔══██║██║░░██║███████║░██╔██╗░
-██║░░██║╚█████╔╝╚════██║██╔╝╚██╗
-╚═╝░░╚═╝░╚════╝░░░░░░╚═╝╚═╝░░╚═╝  https://instagram.com/xx_xwalidxx"""
-print(H04X)
+
 while True:
-    decision = input("Do you want to generate a password put (Y or n or exit): ")
-    if decision == "Y":
-        length = int(input("Enter the length of password : "))
-        print("Generating Password........")
+    choix = input('Vous voulez créer un mot de passe ("y", "n", "exit") : ').strip().lower()
+
+    if choix == "y":
+        
+        while True:
+            try:
+                length = int(input("Taper la longueur du mot de passe (Max = 14): "))
+                if length <= 14:
+                    break
+                else:
+                    print("Le maximum est 14. Essayez encore.\n")
+            except ValueError:
+                print("Entrée invalide. Tapez un nombre entier.\n")
+
+        print("Création du mot de passe........")
         s = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890!@#$%^&*()_+=<>?.,}{[]/-"
-        p = ' '
-        for i in range(0, length, 1):
-            p += s[random.randint(0, len(s))]
-        time.sleep(3)
-        print(p)
-    elif decision == "n":
-        print("Thanks for using")
-    elif decision == "exit" :
+        p = "".join(random.choice(s) for _ in range(length))
+
+        time.sleep(2)
+        print("✅ Mot de passe généré :", p, "\n")
+
+    elif choix == "n":
+        print("Merci pour l'utilisation!\n")
+    elif choix == "exit":
+        print("Programme terminé.")
         break
-    else :
-        print("ERROR")
+    else:
+        print('ERREUR: tapez un choix entre ("y", "n", "exit").\n')
